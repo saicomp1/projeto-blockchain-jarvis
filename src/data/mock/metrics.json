@@ -1,0 +1,28 @@
+{
+  "network": {
+    "blockHeight": 18500000,
+    "difficulty": "45.5T",
+    "hashRate": "425 TH/s",
+    "transactions24h": 1247893,
+    "activeAddresses": 654321
+  },
+  "gasPrice": {
+    "low": "15",
+    "medium": "25",
+    "high": "35"
+  },
+  "recentBlocks": [
+    {
+      "number": 18500000,
+      "timestamp": 1704463200000,
+      "txCount": 234,
+      "miner": "0x123...789"
+    },
+    {
+      "number": 18499999,
+      "timestamp": 1704463188000,
+      "txCount": 189,
+      "miner": "0xabc...def"
+    }
+  ]
+}

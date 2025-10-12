@@ -1,0 +1,255 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Orange & Navy Light - Elegante e claro */
+    --background: 30 40% 98%;
+    --foreground: 215 100% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 100% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 100% 12%;
+    --primary: 15 100% 60%; /* Laranja Brilhante */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 25% 92%; /* Creme suave */
+    --secondary-foreground: 215 100% 12%;
+    --muted: 30 20% 95%;
+    --muted-foreground: 215 20% 46%;
+    --accent: 215 100% 25%; /* Azul Marinho */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 215 30% 88%;
+    --input: 215 25% 92%;
+    --ring: 15 100% 60%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Orange & Navy Dark - Sofisticado e profundo */
+    --background: 215 50% 8%; /* Navy Profundo */
+    --foreground: 30 25% 95%; /* Creme claro */
+    --card: 215 45% 12%; /* Navy Card */
+    --card-foreground: 30 25% 95%;
+    --popover: 215 45% 12%;
+    --popover-foreground: 30 25% 95%;
+    --primary: 15 100% 60%; /* Laranja Brilhante */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 215 100% 20%; /* Navy Escuro */
+    --secondary-foreground: 30 25% 95%;
+    --muted: 215 35% 15%;
+    --muted-foreground: 30 15% 70%;
+    --accent: 15 90% 55%; /* Laranja Accent */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 90% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 215 35% 20%;
+    --input: 215 40% 15%;
+    --ring: 15 100% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Security: Prevent text selection on sensitive data */
+  .no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Accessibility: Focus visible for keyboard navigation */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-muted-foreground/30;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground/50;
+}
+
+/* Animation classes */
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Fire Theme Effects - Energia Quente */
+
+/* Fire Glow - Laranja vibrante */
+.fire-glow,
+.neon-glow {
+  box-shadow:
+    0 0 20px hsl(15 100% 60% / 0.4),
+    0 0 40px hsl(15 100% 60% / 0.2),
+    0 0 60px hsl(15 100% 60% / 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.fire-glow:hover,
+.neon-glow:hover {
+  box-shadow:
+    0 0 30px hsl(15 100% 60% / 0.6),
+    0 0 60px hsl(15 100% 60% / 0.4),
+    0 0 90px hsl(15 100% 60% / 0.2);
+}
+
+/* Solar Glow - Amarelo energia */
+.solar-glow,
+.reactor-glow {
+  box-shadow:
+    0 0 20px hsl(45 100% 54% / 0.4),
+    0 0 40px hsl(45 100% 54% / 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.solar-glow:hover,
+.reactor-glow:hover {
+  box-shadow:
+    0 0 30px hsl(45 100% 54% / 0.6),
+    0 0 60px hsl(45 100% 54% / 0.3);
+}
+
+/* Fire Texture */
+.fire-texture,
+.carbon-texture {
+  background:
+    linear-gradient(135deg, transparent 25%, rgba(255, 107, 53, 0.03) 25%),
+    linear-gradient(225deg, transparent 25%, rgba(255, 107, 53, 0.03) 25%),
+    linear-gradient(45deg, transparent 75%, rgba(255, 107, 53, 0.03) 75%),
+    linear-gradient(315deg, transparent 75%, rgba(255, 107, 53, 0.03) 75%);
+  background-size: 20px 20px;
+  background-position:
+    0 0,
+    10px 0,
+    10px -10px,
+    0px 10px;
+}
+
+/* Fire Glass Effect */
+.fire-glass,
+.stealth-glass {
+  background: linear-gradient(135deg, hsl(var(--card) / 0.7) 0%, hsl(var(--card) / 0.5) 100%);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid hsl(15 100% 60% / 0.2);
+}
+
+/* Fire Border - Chamas */
+.fire-border,
+.neon-border {
+  position: relative;
+  border: 2px solid hsl(15 100% 60% / 0.8);
+  box-shadow:
+    0 0 15px hsl(15 100% 60% / 0.4),
+    inset 0 0 15px hsl(15 100% 60% / 0.1);
+}
+
+/* Fire Pulse Animation */
+@keyframes fire-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 20px hsl(15 100% 60% / 0.3),
+      0 0 40px hsl(15 100% 60% / 0.1);
+  }
+  50% {
+    box-shadow:
+      0 0 40px hsl(15 100% 60% / 0.5),
+      0 0 80px hsl(15 100% 60% / 0.3);
+  }
+}
+
+.fire-pulse,
+.stealth-pulse {
+  animation: fire-pulse 2.5s ease-in-out infinite;
+}
+
+/* Flame Flicker Effect */
+@keyframes flame-flicker {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.flame-flicker {
+  animation: flame-flicker 1.5s ease-in-out infinite;
+}
+
+/* Heat Wave Effect */
+@keyframes heat-wave {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.heat-wave,
+.scan-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.heat-wave::after,
+.scan-effect::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent 0%, hsl(15 100% 60% / 0.1) 50%, transparent 100%);
+  animation: heat-wave 3s linear infinite;
+  pointer-events: none;
+}

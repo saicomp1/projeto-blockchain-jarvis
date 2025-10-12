@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1",
+    "slug": "seguranca-blockchain-melhores-praticas",
+    "title": "Segurança Blockchain: Melhores Práticas para 2024",
+    "excerpt": "Aprenda práticas essenciais de segurança para desenvolvimento blockchain e como proteger seus ativos cripto.",
+    "content": "<h2>Introdução</h2><p>A segurança em blockchain é fundamental para proteger seus ativos digitais. Neste artigo, exploramos as melhores práticas para 2024.</p><h2>Melhores Práticas</h2><p>1. Use carteiras físicas (hardware wallets)<br>2. Ative autenticação de dois fatores<br>3. Nunca compartilhe suas chaves privadas<br>4. Audite contratos inteligentes antes de usar<br>5. Mantenha seu software atualizado</p>",
+    "coverImage": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=400&fit=crop",
+    "author": {
+      "name": "Equipe de Segurança Jarvis",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=jarvis"
+    },
+    "publishedAt": "2024-01-15T10:00:00Z",
+    "tags": ["segurança", "blockchain", "melhores-práticas"],
+    "category": "Segurança",
+    "readingTime": 8,
+    "featured": true
+  },
+  {
+    "id": "2",
+    "slug": "entendendo-carteiras-web3",
+    "title": "Entendendo Carteiras Web3: Um Guia Completo",
+    "excerpt": "Um guia abrangente sobre diferentes tipos de carteiras cripto e como escolher a certa para suas necessidades.",
+    "content": "<h2>O que são Carteiras Web3?</h2><p>Carteiras Web3 são ferramentas que permitem interagir com aplicações descentralizadas. Elas armazenam suas chaves privadas e permitem assinar transações.</p><h2>Tipos de Carteiras</h2><p><strong>1. Carteiras de Software (Hot Wallets):</strong> MetaMask, Trust Wallet, Coinbase Wallet<br><strong>2. Carteiras Físicas (Cold Wallets):</strong> Ledger, Trezor<br><strong>3. Carteiras de Papel:</strong> Para armazenamento de longo prazo</p><h2>Como Escolher</h2><p>Considere: Frequência de uso, quantidade de ativos, nível técnico e necessidades de segurança.</p>",
+    "coverImage": "https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=800&h=400&fit=crop",
+    "author": {
+      "name": "Alan Turing",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=alan"
+    },
+    "publishedAt": "2024-01-10T14:30:00Z",
+    "tags": ["carteiras", "web3", "guia"],
+    "category": "Educação",
+    "readingTime": 12,
+    "featured": true
+  },
+  {
+    "id": "3",
+    "slug": "processo-auditoria-contratos-inteligentes",
+    "title": "O Processo de Auditoria de Contratos Inteligentes",
+    "excerpt": "Mergulho profundo em como contratos inteligentes são auditados e o que procurar em um relatório de auditoria de segurança.",
+    "content": "<h2>Por que Auditar?</h2><p>Contratos inteligentes lidam com valores reais e são imutáveis após o deploy. Uma auditoria identifica vulnerabilidades antes que sejam exploradas.</p><h2>Processo de Auditoria</h2><p><strong>Fase 1: Revisão Manual</strong> - Análise linha por linha do código<br><strong>Fase 2: Testes Automatizados</strong> - Ferramentas como Slither, Mythril<br><strong>Fase 3: Testes de Penetração</strong> - Tentativa de exploração<br><strong>Fase 4: Relatório</strong> - Documentação de achados</p><h2>O que Procurar</h2><p>Reentrância, overflow/underflow, controle de acesso, front-running, lógica de negócio.</p>",
+    "coverImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop",
+    "author": {
+      "name": "Grace Hopper",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=grace"
+    },
+    "publishedAt": "2024-01-05T09:15:00Z",
+    "tags": ["contratos-inteligentes", "auditoria", "segurança"],
+    "category": "Desenvolvimento",
+    "readingTime": 15,
+    "featured": false
+  }
+]
