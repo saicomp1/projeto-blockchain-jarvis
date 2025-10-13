@@ -1,79 +1,82 @@
-# 🤖 Jarvis - Professional Crypto Wallet & Explorer Frontend
+````markdown
+# 🚀 Projeto Blockchain Jarvis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.2-blue)](https://reactjs.org/)
-[![Security: Audited](https://img.shields.io/badge/Security-Audited-green)](SECURITY.md)
+[![Vite](https://img.shields.io/badge/Vite-6.3-646CFF)](https://vitejs.dev/)
+[![Security](https://img.shields.io/badge/Security-Audited-green)](SECURITY.md)
 
-> A highly secure, professional-grade frontend for cryptocurrency wallet management and blockchain exploration, built with React, TypeScript, and security-first principles.
+> 🔐 Plataforma blockchain completa com carteira de criptomoedas, NFTs, staking, DeFi e explorador blockchain. Construída com React, TypeScript e princípios de segurança em primeiro lugar.
 
----
-
-## 🎯 Mission Statement
-
-**"Impenetrable by Design, Auditable by Default"**
-
-Jarvis represents the union of legendary minds in computing and blockchain:
-
-- **Grace Hopper**: Compiled security patterns
-- **Alan Turing**: Cryptographic foundations
-- **Dennis Ritchie**: System-level reliability
-- **Margaret Hamilton**: Mission-critical software
-- **Bill Gates & Steve Jobs/Wozniak**: User-centric design
-- **Satoshi Nakamoto**: Decentralized trust & cryptographic integrity
-- **Tony Stark**: Innovation and cutting-edge technology
+[🌐 Ver Demo](https://projeto-blockchain-jarvis.vercel.app) | [📖 Documentação](https://github.com/tassiadossantos/projeto-blockchain-jarvis/wiki) | [🐛 Reportar Bug](https://github.com/tassiadossantos/projeto-blockchain-jarvis/issues)
 
 ---
 
-## 📋 Table of Contents
+## 🎯 Sobre o Projeto
 
-- [Features](#-features)
-- [Security Principles](#-security-principles)
-- [Architecture](#-architecture)
-- [Prerequisites](#-prerequisites)
-- [Quick Start](#-quick-start)
-- [Environment Variables](#-environment-variables)
-- [Available Scripts](#-available-scripts)
-- [Project Structure](#-project-structure)
-- [Key Technologies](#-key-technologies)
-- [Testing](#-testing)
-- [Deployment](#-deployment)
-- [Security Checklist](#-security-checklist)
-- [Performance Targets](#-performance-targets)
-- [Contributing](#-contributing)
-- [License](#-license)
+**"Segurança em Design, Auditável por Padrão"**
+
+O Projeto Blockchain Jarvis é uma plataforma Web3 completa que integra:
+
+- 💰 **Carteira Multi-Chain**: Suporte para MetaMask, WalletConnect e carteiras hardware
+- 🖼️ **Galeria NFT**: Marketplace com compra, venda e criação de NFTs
+- 💎 **Staking & DeFi**: Farming de liquidez e protocolos de empréstimo
+- 📊 **Portfolio**: Gestão completa de ativos e analytics
+- 🔍 **Explorer**: Visualização de blocos e transações blockchain
+- 🌐 **Multi-Chain**: Ethereum, BSC, Polygon e mais
 
 ---
 
-## ✨ Features
+## 📋 Índice
 
-### Core Functionality
+- [✨ Funcionalidades](#-funcionalidades)
+- [🛡️ Segurança](#️-segurança)
+- [🏗️ Arquitetura](#️-arquitetura)
+- [📦 Pré-requisitos](#-pré-requisitos)
+- [🚀 Instalação](#-instalação)
+- [🔐 Variáveis de Ambiente](#-variáveis-de-ambiente)
+- [📜 Scripts Disponíveis](#-scripts-disponíveis)
+- [🧪 Testes](#-testes)
+- [🚢 Deploy](#-deploy)
+- [🤝 Contribuindo](#-contribuindo)
+- [📄 Licença](#-licença)
 
-- ✅ **Multi-Wallet Support**: MetaMask, WalletConnect, Ledger, Trezor
-- ✅ **Blockchain Explorer**: Real-time transaction and block viewing
-- ✅ **Secure Transactions**: Preview, gas estimation, and confirmation flows
-- ✅ **Dashboard Metrics**: Network statistics and analytics
-- ✅ **Blog/Documentation**: MDX-powered content management
-- ✅ **Contact Form**: Validated with Zod + React Hook Form
+---
 
-### Security Features (Non-Negotiable)
+## ✨ Funcionalidades
 
-- 🔒 **Content Security Policy (CSP)**: Strict CSP headers
-- 🔒 **Subresource Integrity (SRI)**: Verified external resources
-- 🔒 **XSS Protection**: Input sanitization with DOMPurify
-- 🔒 **CSRF Protection**: Token-based validation
-- 🔒 **Rate Limiting**: Client-side exponential backoff
-- 🔒 **Secure Storage**: NO private keys in localStorage
-- 🔒 **Dependency Auditing**: Automated npm audit in CI
-- 🔒 **Type Safety**: Strict TypeScript configuration
+### 🎯 Funcionalidades Principais
 
-### UX/Accessibility
+- ✅ **Carteira Digital**: Gerenciamento completo de criptomoedas
+- ✅ **NFT Marketplace**: Galeria com compra, venda e criação de NFTs
+- ✅ **Staking & Farming**: Ganhe recompensas com seus ativos
+- ✅ **Swap de Tokens**: Troca descentralizada de criptomoedas
+- ✅ **Empréstimos DeFi**: Protocolo de lending e borrowing
+- ✅ **Explorador Blockchain**: Visualização de blocos e transações
+- ✅ **Portfolio Analytics**: Gráficos e métricas em tempo real
+- ✅ **Social Trading**: Rede social para traders
+- ✅ **Multi-Chain**: Suporte para múltiplas blockchains
+- ✅ **Gas Tracker**: Monitoramento de taxas de rede
 
-- ♿ **WCAG AA Compliant**: Keyboard navigation, ARIA labels
-- 🌐 **Responsive Design**: Mobile-first approach
-- 🎨 **Theme Support**: Dark/light mode (Tailwind CSS)
-- ⚡ **Performance Optimized**: Lazy loading, code splitting
-- 📱 **PWA Ready**: Installable web app capabilities
+### 🔒 Segurança (Não Negociável)
+
+- �️ **Content Security Policy (CSP)**: Proteção contra XSS
+- �️ **Input Sanitization**: DOMPurify para sanitização de inputs
+- �️ **CSRF Protection**: Proteção contra ataques CSRF
+- �️ **Rate Limiting**: Limitação de requisições
+- �️ **Secure Storage**: Sem chaves privadas no localStorage
+- 🛡️ **Type Safety**: TypeScript em modo strict
+- �️ **Dependency Auditing**: Auditoria automática no CI/CD
+- �️ **Security Headers**: Headers de segurança configurados
+
+### 🎨 UX/Acessibilidade
+
+- ♿ **WCAG AA**: Navegação por teclado e ARIA labels
+- 📱 **Responsivo**: Design mobile-first
+- � **Tema Claro/Escuro**: Suporte completo
+- ⚡ **Performance**: Code splitting e lazy loading
+- 🌐 **Internacionalização**: Pronto para múltiplos idiomas
 
 ---
 
@@ -256,54 +259,53 @@ Optional:
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Instalação
 
-### 1. Clone the Repository
+### 1. Clone o Repositório
 
 ```powershell
-git clone https://github.com/your-org/jarvis-crypto-frontend.git
-cd jarvis-crypto-frontend
+git clone https://github.com/tassiadossantos/projeto-blockchain-jarvis.git
+cd projeto-blockchain-jarvis
 ```
 
-### 2. Install Dependencies
+### 2. Instale as Dependências
 
 ```powershell
 npm install
 ```
 
-**Security Note**: Always verify the integrity of dependencies:
+**Nota de Segurança**: Sempre verifique a integridade das dependências:
 
 ```powershell
 npm audit
-npm run audit:security
 ```
 
-### 3. Set Up Environment Variables
+### 3. Configure as Variáveis de Ambiente
 
 ```powershell
 cp .env.example .env
 ```
 
-Edit `.env` with your configuration (see [Environment Variables](#-environment-variables)).
+Edite o arquivo `.env` com suas configurações (veja [Variáveis de Ambiente](#-variáveis-de-ambiente)).
 
-### 4. Start Development Server
+### 4. Inicie o Servidor de Desenvolvimento
 
 ```powershell
 npm run dev
 ```
 
-The app will be available at `http://localhost:3000`.
+A aplicação estará disponível em `http://localhost:3000`.
 
-### 5. Run Tests
+### 5. Execute os Testes
 
 ```powershell
-# Unit tests
+# Testes unitários
 npm test
 
-# E2E tests
+# Testes E2E
 npm run e2e
 
-# Coverage
+# Cobertura
 npm run test:coverage
 ```
 
@@ -652,3 +654,4 @@ Built with inspiration from:
 ---
 
 **Built with 🔒 by the Jarvis Team | Secure by Design, Auditable by Default**
+````
